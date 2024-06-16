@@ -1,0 +1,3 @@
+/home/mikhail/cpp-labs/flat_map/build/CMakeFiles/flatmap.dir
+/home/mikhail/cpp-labs/flat_map/build/CMakeFiles/edit_cache.dir
+/home/mikhail/cpp-labs/flat_map/build/CMakeFiles/rebuild_cache.dir

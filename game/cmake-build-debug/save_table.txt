@@ -1,0 +1,9 @@
+ggh
+10
+0
+21
+0
+spaceship 50 22 10
+WInvader 76 4 2
+sInvBullet 73 20 1
+wInvader 16 1 2

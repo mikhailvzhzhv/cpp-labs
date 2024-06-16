@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test.dir/wav_test.cpp.o CMakeFiles/corelib.dir/reader.cpp.o CMakeFiles/corelib.dir/writer.cpp.o CMakeFiles/corelib.dir/converter.cpp.o CMakeFiles/corelib.dir/commander.cpp.o -o test  lib/libgtest_main.a lib/libgtest.a 

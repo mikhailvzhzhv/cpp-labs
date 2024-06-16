@@ -1,0 +1,3 @@
+/home/mikhail/labs/labs/templates/cmake-build-debug/CMakeFiles/tmp.dir
+/home/mikhail/labs/labs/templates/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mikhail/labs/labs/templates/cmake-build-debug/CMakeFiles/rebuild_cache.dir

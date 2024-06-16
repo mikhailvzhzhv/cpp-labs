@@ -1,0 +1,4 @@
+/home/mikhail/labs/labs/wav/build/CMakeFiles/corelib.dir
+/home/mikhail/labs/labs/wav/build/CMakeFiles/wav.dir
+/home/mikhail/labs/labs/wav/build/CMakeFiles/edit_cache.dir
+/home/mikhail/labs/labs/wav/build/CMakeFiles/rebuild_cache.dir

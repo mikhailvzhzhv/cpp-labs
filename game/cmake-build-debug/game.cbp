@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mikhail/labs/labs/game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game">
+				<Option output="/home/mikhail/labs/labs/game/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mikhail/labs/labs/game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUBSAN_ON"/>
+					<Add option="-DASAN_ON"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game/fast">
+				<Option output="/home/mikhail/labs/labs/game/cmake-build-debug/game" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mikhail/labs/labs/game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUBSAN_ON"/>
+					<Add option="-DASAN_ON"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mikhail/labs/labs/game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mikhail/labs/labs/game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/mikhail/labs/labs/game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mikhail/labs/labs/game/context/context.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/context/context.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/factory/factory.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/factory/factory.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game_objects/bullet.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game_objects/bullet.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game_objects/dynamic_object.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game_objects/dynamic_object.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game_objects/invadership.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game_objects/invadership.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game_objects/spaceship.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game_objects/spaceship.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game_screen/game_screen.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/game_screen/game_screen.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/main.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/save_table/save_table.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/save_table/save_table.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/score_table/score_table.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/score_table/score_table.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="/home/mikhail/labs/labs/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
